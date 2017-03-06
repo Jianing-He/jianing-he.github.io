@@ -1,110 +1,109 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 	<head>
-	<title>Jianing He-Serenity</title>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.min.js"></script>
-	<!-- Custom Theme files -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	 <!-- Custom Theme files -->
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	 <meta name="keywords" content="" />
-	<!--<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> -->
-	 <!---- start-smoth-scrolling---->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-			<script type="text/javascript">
-				jQuery(document).ready(function($) {
-					$(".scroll").click(function(event){		
-						event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-					});
-				});
-			</script>
-	 <!---- start-smoth-scrolling---->
+    	<title>Jianing He-Serenity</title>
+    	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    	<script src="js/jquery.min.js"></script>
+    	<link href="css/style.css" rel='stylesheet' type='text/css' />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<meta name="keywords" content="" />
+    	<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> 
+    	
+    	<!-- start-smoth-scrolling-->
+    	<script type="text/javascript" src="js/move-top.js"></script>
+    	<script type="text/javascript" src="js/easing.js"></script>
+    	<script type="text/javascript">
+        	jQuery(document).ready(function($) {
+        		$(".scroll").click(function(event){		
+        		event.preventDefault();
+        		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        		});
+        	});
+    	</script>
 	</head>
-	
+	    
 	<body>
 		
-	<!-- header -->
+	<!--1.header -->
 	<div id="home" class="header">
-			<div class="container">
-					 <div class="top-header">
-					 <!--top-nav---->
-							<div class="top-nav">
-							<div class="navigation">
-							<div class="logo">
-									<h1><a href="index.html"><span>S</span>erenity</a></h1>
-							</div>
-							<div class="navigation-right">
-									<span class="menu"><img src="images/menu.png" alt=" " /></span>
-										<nav class="link-effect-3" id="link-effect-3">
-											<ul class="nav1 nav nav-wil">
-												<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-												<li><a class="scroll" data-hover="About" href="#about" >About</a></li>
-												<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-												<li><a class="scroll" data-hover="Awards&Certificates" href="#port">Awards&Certificates</a></li>
-												<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-											</ul>
-									</nav>
-									
-								<!-- script-for-menu -->
-									<script>
-									   $( "span.menu" ).click(function() {
-										 $( "ul.nav1" ).slideToggle( 300, function() {
+		<div class="container">
+			<div class="top-header">
+			    <!--1.1.top-nav-->
+				<div class="top-nav">
+					<div class="navigation">
+						<div class="logo">
+							<h1><span>S</span>erenity</h1>
+						</div>
+						
+						<div class="navigation-right">
+							<span class="menu"><img src="images/menu.png" alt=" " /></span>
+							<!--script-for-menu-->
+							<script>
+								$( "span.menu" ).click(function() {
+								    $( "ul.nav1" ).slideToggle( 300, function() {
 										 // Animation complete.
-										  });
-										 });
-									</script>
-								<!-- /script-for-menu -->
+									});
+								});
+							</script>
 							
-							</div>
-							<div class="clearfix"></div>
-						    </div>
+							<nav class="link-effect-3" id="link-effect-3">
+    							<ul class="nav1 nav nav-wil">
+    								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+    								<li><a class="scroll" data-hover="About" href="#about" >About</a></li>
+    								<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+    								<li><a class="scroll" data-hover="Awards&Certificates" href="#port">Awards&Certificates</a></li>
+    								<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+    							</ul>
+    						</nav>
+				        </div>
 					
-						    </div>
-				      <!--/top-nav---->
+					    <div class="clearfix"></div>
+    				</div>
+				</div>
+				<!--/top-nav-->
 			          
-			          <!--banner-->
-					 <div class="banner-info">
-							<div class="col-md-7 header-right">
-									<h1>Welcome!</h1>
-									<h6>Jianing He</h6>
-									<div id = "banner-line"></div>
-									<p class = "banner-content">&nbsp&nbsp&nbsp&nbsp I am currently pursuing a career as a <strong>data analyst</strong> and hoping to be an active anticipate of this <strong>data-drive world</strong>.  </p>
-									<p class = "banner-content">&nbsp&nbsp&nbsp&nbsp For someone like me who has a bottomless curiosity for understanding my surroundings, deciphering the unknown, and developing valuable insights, data science is a natural fit.</p>
-							</div>
-							<div class="col-md-5 header-left">
-									<img src="images/banner.jpg" alt="">
-							</div>
-							<div class="clearfix"> </div>
+			    <!--1.2.banner-->
+				<div class="banner-info">
+				    <!--left content-->
+					<div class="col-md-7 header-right">
+						<h1>Welcome!</h1>
+						<h6>Jianing He</h6>
+						<div id = "banner-line"></div>
+						<p class = "banner-content">&nbsp&nbsp&nbsp&nbsp I am currently pursuing a career as an <strong>entry-level data scientist</strong> or <strong>data analyst</strong> and hoping to be an active anticipate of this <strong>data-drive world</strong>.
+						</p>
+						<p class = "banner-content">&nbsp&nbsp&nbsp&nbsp For someone like me who has a bottomless curiosity for understanding his or her surroundings, deciphering the unknown, and developing valuable insights, <strong>data science</strong> is a natural fit.
+						</p>
+					</div>
+					
+					<!--right content-->
+					<div class="col-md-5 header-left">
+						<img src="images/profile.jpg" alt="">
+					</div>
+					
+					<div class="clearfix"> </div>
 								
-				      </div>
-				      <!--/banner-->
+				</div>
+				<!--/banner-->
 				      
-			   </div>
-		     </div>
+			</div>
+		</div>
 	</div>
 	<!-- /header -->
 	
-	<!-- about delete-->
-
-	<!-- /about -->
-	<!-- new about -->	
-			<div id="about" class="services">
-				<div class="container">
-					<!-- about header -->
-					<div class="service-head one text-center ">
-						<h4>WHO I AM</h4>
-						<h3>ABOUT <span>ME</span></h3>
-						<span class="border two"></span>
-					</div>
-					<!-- /about header -->
-					
-			<!-- about-grids -->
+	<!-- about delete--><!-- /about -->
+	<!--2. about-->	
+	<div id="about" class="services">
+		<div class="container">
+			<!-- 2.1.about title -->
+			<div class="service-head one text-center ">
+				<h4>WHO I AM</h4>
+				<h3>ABOUT <span>ME</span></h3>
+				<span class="border two"></span>
+			</div>
+			
+			<!-- 2.2 about-grids -->
 			<div class="wthree_about_right_grids w3l-agile">
 				<div class="col-md-6 wthree_about_right_grid">
 					<div class="col-xs-4 wthree_about_right_grid_left">
@@ -164,460 +163,427 @@
 			</div>
 	<!-- /new about -->
 
-			<!--work-experience-->
+	<!--3.work-experience-->
 	<div id="work" class="work">
 		<div class="container">
+		    <!--3.1 head-->
 			<div class="service-head text-center">
-						<h4>WHAT I DID</h4>
-						<h3>MY <span>EXPERIENCE</span></h3>
-						<span class="border one"></span>
-					</div>
-					<div class="time-main w3l-agile">
-							<div class="col-md-6 year-info">
-							   <ul class="year">
-								   <li>2016</li><!--ul.year li: margin-top-->
-								   <li>2016</li>
-								   <li>2014</li>
-								   <div class="clearfix"></div>
-								</ul>
-							</div> 
-					                        <ul class="col-md-6 timeline">
-																<li>
-																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">STATE INFORMATION CENTER</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>1. Using R, MATLAB, and Java, employed machine learning algorithms, such as k-means, neural network, and support vector machine(SVM), to process and analyze data according to projects’ requirements .</p>
-																	  <p>2. Developed a primary web application with Java Server Page, Java Servlet, and Tomcat for deploying and editing data from MySQL databases within 3 weeks.  </p>
-																	  <p>3. Participated in model building, data collecting, processing, and report writing of Evaluation of Information System Robustness as one of the lead members of the project. Built a web scraper with Python to gather text data to quantify qualitative factors.</p>
-																	</div>
-																  </div>
-																</li>
-																
-																<li>
-																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">INSTITUTE OF BIG DATA FOR INTERNATIONAL RELATIONS</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>1. Conducted an analysis on Factors on the Impact of Major Countries’ International Strategies using grey relational analysis (GRA) and the granger causality test with R to narrow down the number of factors from 300 to 27, and ranked the influence of factors using the entropy method.</p>
-																	  <p>2. Contributed to modeling and data processing of Index of International Security based on Situational Awareness. The index was released on July 2, 2016 as the first index quantifying international security in China’s international relations research field.</p>
-																	</div>
-																  </div>
-																</li>
-																
-																
-																
-																<li>
-																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">PRUDENTIAL HONGKONG LTD.</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>1. Conducted in-depth research on the development of Asia-Pacific Region's insurance services. Used SWOT to analyze the Prudential Hong Kong and its competitors and completed 17-page report (in English ) on the company's future development for corporate executives. </p>
-																	  <p>2.  Won the Champion of the Business Plan Competition held by the Prudential Hong Kong Limited.</p>
-																	</div>
-																  </div>
-																</li>
-													</ul>
-								<div class="clearfix"></div>
-					</div>
+				<h4>WHAT I DO</h4>
+				<h3>MY <span>EXPERIENCE</span></h3>
+				<span class="border one"></span>
+			</div>
+			<!--3.2 timeline-->
+			<div class="time-main w3l-agile">
+			    <!--3.2.1 left timeline-->
+				<div class="col-md-6 year-info">
+				   <ul class="year">
+					   <li>2016</li><!--ul.year li: margin-top-->
+					   <li>2016</li>
+					   <li>2014</li>
+				       <div class="clearfix"></div>
+					</ul>
+				</div> 
+				<!--3.2.2 right timeline-->
+				<ul class="col-md-6 timeline">
+					<li>
+					    <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+    						<div class="timeline-heading">
+    						    <h4 class="timeline-title">STATE INFORMATION CENTER</h4>
+    						</div>
+    						<div class="timeline-body">
+    						    <p>1. Using R, MATLAB, and Java, employed machine learning algorithms, such as k-means, neural network, and support vector machine(SVM), to process and analyze data according to projects’ requirements .</p>
+    						    <p>2. Developed a primary web application with Java Server Page, Java Servlet, and Tomcat for deploying and editing data from MySQL databases within 3 weeks.  </p>
+    						    <p>3. Participated in model building, data collecting, processing, and report writing of Evaluation of Information System Robustness as one of the lead members of the project. Built a web scraper with Python to gather text data to quantify qualitative factors.</p>
+    						</div>
 						</div>
-				</div>
+				    </li>
+																
+					<li>
+						<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">INSTITUTE OF BIG DATA FOR INTERNATIONAL RELATIONS</h4>
+							</div>
+							<div class="timeline-body">
+								<p>1. Conducted an analysis on Factors on the Impact of Major Countries’ International Strategies using grey relational analysis (GRA) and the granger causality test with R to narrow down the number of factors from 300 to 27, and ranked the influence of factors using the entropy method.</p>
+								<p>2. Contributed to modeling and data processing of Index of International Security based on Situational Awareness. The index was released on July 2, 2016 as the first index quantifying international security in China’s international relations research field.</p>
+							</div>
+						</div>
+					</li>
+																
+					<li>
+					    <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">PRUDENTIAL HONGKONG LTD.</h4>
+							</div>
+							<div class="timeline-body">
+								<p>1. Conducted in-depth research on the development of Asia-Pacific Region's insurance services. Used SWOT to analyze the Prudential Hong Kong and its competitors and completed 17-page report (in English ) on the company's future development for corporate executives. </p>
+								<p>2.  Won the Champion of the Business Plan Competition held by the Prudential Hong Kong Limited.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 	<!--//work-experience-->
 
-		<!-- portfolio -->
-<div class="portfolio" id="port">
-				<div class="service-head text-center">
-						<h4>MY WORKS</h4>
-						<h3>MY <span>AWARDS & CERTIFICATES</span></h3>
-						<span class="border"></span>
-				</div>
-		<!--Awards Grid-->
-			<div class="portfolio-grids">
-				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-				<script type="text/javascript">
-									$(document).ready(function () {
-										$('#horizontalTab').easyResponsiveTabs({
-											type: 'default', //Types: default, vertical, accordion           
-											width: 'auto', //auto or any width like 600px
-											fit: true   // 100% fit in a container
-										});
-									});
-									
-				</script>
-				<div class="sap_tabs">
-					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-						<ul class="resp-tabs-list">
-							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>DATA SCIENCE</span></li> 
-							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>MOOC</span></li> 				
-							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>OTHERS</span></li> 
-						</ul>	
+	<!--4. portfolio -->
+    <div class="portfolio" id="port">
+        <!--4.1 header -->
+		<div class="service-head text-center">
+			<h4>MY WORKS</h4>
+			<h3>MY <span>AWARDS & CERTIFICATES</span></h3>
+			<span class="border"></span>
+		</div>
+		<!--4.2 Awards Grid-->
+		<div class="portfolio-grids">
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});
+			</script>
+				
+			<div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list">
+						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>DATA SCIENCE</span></li> 
+						<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>MOOC</span></li> 				
+						<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>OTHERS</span></li> 
+					</ul>	
 									  	 
-						<div class="resp-tabs-container">
-							<!--All-->
-							
-					<!--/All-->
-					<!--Data Science-->	
-							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-								<div class="col-md-3 team-gd ">
-									<div class="thumb">
-										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/ncaa.png" alt="">
-										
-										</a>
-									</div>
+					<div class="resp-tabs-container">
+					<!--All--><!--/All-->
+					    <!--4.2.1 Data Science-->	
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+							<div class="col-md-4 team-gd"><!--revise the padding of images-->
+								<div class="thumb">
+									<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/ncaa.jpg" alt="">
+									</a>
 								</div>
-								<div class="col-md-3 team-gd  ">
-									<div class="thumb">
-										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/2015.png" alt="">
-										
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
 							</div>
-							<!--/Data Science-->	
-							<!--MOOC-->	
-							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
-										
-										</a>
-								
+							<div class="col-md-4 team-gd">
+								<div class="thumb">
+									<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/sustainable.jpg" alt="">
+									</a>
 								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-									
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-								<!--/MOOC-->	
-								<!--Others-->	
 							</div>
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-								<!--/Others-->
+							<div class="col-md-4 team-gd ">
+								<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/water.jpg" alt="">
+								</a>
 							</div>
+							<div class="clearfix"></div>
 						</div>
+						<!--//Data Science-->	
+						<!--4.2.2 MOOC-->	
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							<div class="col-md-4 team-gd ">
+								<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/dss.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-4 team-gd ">
+								<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/mls.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-4 team-gd">
+								<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/mlng.jpg" alt="">
+							    </a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!--/MOOC-->	
+					    <!--4.2.3 Others-->	
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+							<div class="col-md-4 team-gd ">
+								<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/bp.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-4 team-gd ">
+								<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/cuba.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-4 team-gd">
+								<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/athlete.jpg" alt="">
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!--/Others-->
 					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 	<!-- //portfolio -->
-    <!-- top-grids -->
+	
+    <!-- blog-pop--><!-- //blog-pop-->
 
-	<!-- //blog-pop-->
-
-<!-- Contact -->
-<div class="footer" id="contact">
-	<div class="container">
-	<div class="service-head one text-center">
-						<h4>CONTACT ME</h4>
-						<h3>GET <span>IN TOUCH WITH ME</span></h3>
-						<span class="border two"></span>
-					</div>
-		<div class="mail_us">
-			<div class="col-md-6 mail_left">
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						<h4>Contact By Email</h4>
-						<ul>
-							<li>Mail1: <a href="mailto:jianinghe1120@gmail.com">jianinghe1120@gmail.com</a></li>
-							<li>Mail2: <a href="mailto:hboaty1120@hotmail.com">hboaty1120@hotmail.com</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 mail_right">
-				<form action="#" method="post">
-					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Send">
-					
-				</form>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="copy_right text-center">
-			<p>Copyright &copy; 2016</p>
-			 <ul class="social-icons two">
-							<li><a href="#"> </a></li>
-							<li><a href="#" class="fb"> </a></li>
-							<li><a href="#" class="in"> </a></li>
-							<li><a href="#" class="dott"> </a></li>
-						</ul>
-		</div>
-	</div>
-</div>
-<!-- /Contact -->
-
-			<!-- //footer -->
-		<!-- /container -->
-<!--All-->
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    <!--5. Contact-->
+    <div class="footer" id="contact">
+    	<div class="container">
+    	    <!--5.1 header-->
+    	    <div class="service-head one text-center">
+    			<h4>CONTACT ME</h4>
+    			<h3>GET IN TOUCH WITH <span>ME</span></h3>
+    			<span class="border two"></span>
+    		</div>
+    		<!--5.2 Contact Box-->
+    		<div class="mail_us">
+    		    <!--5.2.1 left-->
+    			<div class="col-md-6 mail_left">
+    				<div class="contact-grid1-left">
+    					<div class="contact-grid1-left1">
+    						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+    						<h4>Contact By Email</h4>
+    						<ul>
+    							<li>Mail1: <a href="mailto:jianinghe1120@gmail.com">jianinghe1120@gmail.com</a></li>
+    							<li>Mail2: <a href="mailto:hboaty1120@hotmail.com">hboaty1120@hotmail.com</a></li>
+    						</ul>
+    					</div>
+    				</div>
+                    <div class="clearfix"> </div>
+    			</div>
+    			<!--5.2.2 right-->
+    			<div class="col-md-6 mail_right">
+    				<form action="#" method="post">
+    					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+    					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+    					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+    					<input type="submit" value="Send">
+    				</form>
+    			</div>
+    			<div class="clearfix"></div>
+    		</div>
+    		<!--5.3 Copyright-->
+    		<div class="copy_right text-center">
+    			<p>Copyright2017 &copy; JianingHe</p>
+    			<ul class="social-icons two">
+    				<li><a href="#"> </a></li>
+    				<li><a href="#" class="fb"> </a></li>
+    				<li><a href="#" class="in"> </a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <!-- //Contact -->
+    
+    <!--Portfolio Containers-->
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>M/ICM Meritorious Winner </h3>
-                        <img src="images/ncaa.png" class="img-responsive img-centered" alt="">
-                        <p>Utilized analytic hierarchy process (AHP) and back propagation neural network with MATLAB to build an evaluation model within 96 hours, for ranking the best college sports coaches of 20th century among over 6,000 NCAA coaches.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>M/ICM Meritorious Winner (First Prize)</h3>
+                            <img src="images/ncaa.jpg" class="img-responsive img-centered" alt="">
+                            <p>Utilized analytic hierarchy process (AHP) and back propagation neural network with MATLAB to build an evaluation model within 96 hours, for ranking the best college sports coaches of 20th century among over 6,000 NCAA coaches.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Honorable Mention</h3>
-                        <img src="images/2015.png" class="img-responsive img-centered" alt="">
-                        <p>Applied principal component analysis (PCA) to select 19 factors out of 41 initial factors and rank their importance based on the percentage of variance calculated with R. Estimated and ranked the sustainability of 204 countries and regions by combining AHP and GRA, and draw a feasible 20-year sustainable development plan for Cambodia accordingly. </p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>M/ICM Honorable Mention (Second Prize)</h3>
+                            <img src="images/sustainable.jpg" class="img-responsive img-centered" alt="">
+                            <p>Applied principal component analysis (PCA) to select 19 factors out of 41 initial factors and rank their importance based on the percentage of variance calculated with R. Estimated and ranked the sustainability of 204 countries and regions by combining AHP and GRA, and draw a feasible 20-year sustainable development plan for Cambodia accordingly. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>M/ICM Honorable Mention (Second Prize)</h3>
+                            <img src="images/water.jpg" class="img-responsive img-centered" alt="">
+                            <p>Combined AHP and GRA to create a Water Availability Index (WAI), measuring the water scarcity of regions or countries. Evaluated and forecasted the water situation in Beijing-Tianjin-Hebei (BTH) region with WAI and grey forecasting model.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>Data Science Specialization</h3>
+                            <img src="images/dss.jpg" class="img-responsive img-centered" alt="">
+                            <p>This Specialization covers the concepts and tools needed throughout the entire data science pipeline, from asking the right kinds of questions, making inferences to publishing results and developing data products. In the final Capstone Project, I will apply the skills learned by building a data product, a text prediction model for SwiftKeys, using real-world data. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>Machine Learning Specialization(In Progress)</h3>
+                            <img src="images/mls.jpg" class="img-responsive img-centered" alt="">
+                            <p> My intention to take the specialization is that, since R tends to be significantly less scalable and less useful for production code in industry, I want to familiarize myself with Python, the de facto language for data science in industry, through this series. Through a series of practical case studies, I have beeing gaining applied experience in major areas of Machine Learning including Prediction, Classification, Clustering, and Information Retrieval. I also have been learning to analyze large and complex datasets, creating systems that adapt and improve over time, and building intelligent applications that can make predictions from data.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>Machine Learning</h3>
+                            <img src="images/mlng.jpg" class="img-responsive img-centered" alt="">
+                            <p>In this class, I learnt about the most effective machine learning techniques, and gained practice implementing them and getting them to work for my needs. More importantly, I learnt about not only the theoretical underpinnings of learning, but also gained the practical know-how needed to quickly and powerfully apply these techniques to new problems. Additionally, I learnt about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>Silver Award</h3>
+                            <img src="images/bp.jpg" class="img-responsive img-centered" alt="">
+                            <p>Completed an innovative business plan to help environment-friendly companies gain profits at The 9th "Challenge Cup" China College Students Business Plan Competition. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Sixth Place</h3>
+                            <img src="images/cuba.jpg" class="img-responsive img-centered" alt="">
+                            <p>Won Sixth Place of 18th Chinese University Basketball Association (CUBA) League as captain of UIBE women basketball team. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
+    
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <img src="images/ncaa.jpg" class="img-responsive img-centered" alt="">
+            <div class="container">
+    			<div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+    						<h3>Green Energy Athletic Scholarship</h3>
+                            <img src="images/athlete.jpg" class="img-responsive img-centered" alt="">
+                            <p>Awarded Green Energy Athletic Scholarship by University of International Business and Economics because of 4-year devotion to school's sports teams. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 <!--TopButton-->
-<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!--start-smooth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-								<!--end-smooth-scrolling-->
-<!-- //for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-	
-
+    <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    	<!--start-smooth-scrolling-->
+    	<script type="text/javascript">
+    		$(document).ready(function() {
+    		/*
+    		var defaults = {
+    			containerID: 'toTop', // fading element id
+    	    	containerHoverID: 'toTopHover', // fading element hover id
+    			scrollSpeed: 1200,
+    			easingType: 'linear' 
+    		};
+    		*/
+    			$().UItoTop({ easingType: 'easeOutQuart' });
+    		});
+    	</script>
+    	<!--end-smooth-scrolling-->
+        <!-- //for bootstrap working -->
+    	<script src="js/bootstrap.js"></script>
 	</body>
 </html>
 

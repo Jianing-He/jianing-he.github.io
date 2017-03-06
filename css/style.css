@@ -31,11 +31,8 @@ body h1,h2,h3,h4,h5,h6{
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
-     color:#fff;
-}
-.logo h1 a{
-	text-decoration:none;
-	 color:#fff;
+    color:#fff;
+    font-size: 3.2em;
 }
 .logo span {
     border: 7px solid #00a78e;
@@ -66,6 +63,7 @@ body h1,h2,h3,h4,h5,h6{
 span.menu{
 	display:none;
 }
+
 /*-- nav-hover --*/
 .link-effect-3 a {
 	padding: 10px 0;
@@ -85,7 +83,7 @@ span.menu{
 	border-bottom: 3px solid #00a78e;
     color: #00a78e;
 	content: attr(data-hover);
-	-webkit-transition: max-width 0.5s;
+	-webkit-transition: max-width 0.5s; /*CSS transition*/
 	-moz-transition: max-width 0.5s;
 	transition: max-width 0.5s;
 }
@@ -136,7 +134,7 @@ span.menu{
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
-	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .header-right h1:before {
        width: 0;
@@ -380,8 +378,8 @@ h4.tittle  {
 .modal-body {
     position: relative;
     padding: 20px;
-    text-align: center;
 }
+
 /*-- about-us --*/
 span.border {
     width: 18%;
@@ -763,13 +761,13 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-	    margin-top: 315px;
+	    margin-top: 338px;
 }
 ul.year li:nth-child(3){
-	    margin-top: 275px;
+	    margin-top: 310px;
 }
 ul.year li:nth-child(4){
-	    margin-top: 116px;
+	    margin-top: 150px;
 }
 ul.year li:nth-child(5){
 	    margin-top: 112px;
@@ -924,7 +922,7 @@ ul.year li:nth-child(5){
     background:#00a78e;
 }
 .resp-tabs-container {
-	padding: 0px;
+	padding-bottom: 30px;
 	clear: left;	
 }
 h2.resp-accordion {
@@ -961,7 +959,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 }
 .team-gd img {
     width: 100%;
-	border-bottom: 9px solid rgba(0, 0, 0, 0.81);
+    border: 9px solid rgba(0,167,142,0.8);
 }
 /*-- portfolio --*/
 
@@ -1124,20 +1122,20 @@ ul.social-icons.two {
 	width:100%;
 }
 .mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
-       background: none;
+    background: none;
     width: 100%;
     color: #777;
-    padding: 19px 10px;
-    margin-bottom: 24px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
     outline: none;
     border: 2px solid #00a78e;
 }
 .mail_right textarea {
-	height:200px; 
+	height:150px; 
 	resize:none;	
 }
 .mail_right input[type="submit"] {
-        border: none;
+    border: none;
     outline: none;
     color: #fff;
     background: #212322;
@@ -1145,8 +1143,8 @@ ul.social-icons.two {
     padding: 13px 40px;
 }
 .mail_right input[type="submit"]:hover{
- background: #00a78e;
-	    transition: 0.5s all ease;
+    background: #00a78e;
+	transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
@@ -1245,6 +1243,7 @@ span.border.two:after {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
 /*-- responsive-design --*/
 @media(max-width:1366px){
 	.about-left-grid {
